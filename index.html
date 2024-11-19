@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso a la Red</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace a tu archivo CSS -->
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <img src="banner.jpg" alt="Banner de la Empresa"> <!-- Cambia el src por la ruta de tu banner -->
+        </div>
+    </header>
+
+    <main>
+        <form id="formulario-de-inicio-de-sesion">
+            <div class="logotipo">
+                <img src="t.svg" alt="Logotipo de la Empresa">
+            </div>
+            <div class="grupo-de-formularios">
+                <label for="nombreusuario">Nombre de Usuario</label>
+                <input type="text" id="nombreusuario" name="nombreusuario" required>
+            </div>
+            <div class="grupo-de-formularios">
+                <label for="contraseña">Contraseña</label>
+                <input type="password" id="contraseña" name="contraseña" required>
+            </div>
+            <button type="submit">Iniciar Sesión</button>
+            <div class="mensaje-de-error" id="mensaje-de-error"></div> <!-- Mensaje de error centrado -->
+            <div class="enlaces">
+                <a href="#">Olvidé mi contraseña</a> | 
+                <a href="#">Crear una cuenta</a>
+            </div>
+        </form>
+        <div class="informacion">
+            <p>Al iniciar sesión, aceptas nuestras políticas de uso de la red @TechNovaOfficial.</p>
+            <a href="#">Términos y condiciones</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>Contacto: contacto@technova.com | Síguenos en nuestras redes sociales</p>
+    </footer>
+</body>
+</html>
